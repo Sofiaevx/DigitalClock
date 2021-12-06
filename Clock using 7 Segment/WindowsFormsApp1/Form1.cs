@@ -22,6 +22,7 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            label6.Text = DateTime.Now.ToString("tt");
         }
 
         private void Form1_Load(object sender, EventArgs e)

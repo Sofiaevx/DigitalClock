@@ -78,6 +78,7 @@ namespace WindowsFormsApp1
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.Clock = new System.Windows.Forms.Timer(this.components);
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // A7
@@ -96,11 +97,11 @@ namespace WindowsFormsApp1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Tomato;
-            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Snow;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(163, 23);
+            this.label1.Size = new System.Drawing.Size(174, 27);
             this.label1.TabIndex = 15;
             this.label1.Text = "DIGITAL CLOCK";
             // 
@@ -638,12 +639,24 @@ namespace WindowsFormsApp1
             this.Clock.Interval = 500;
             this.Clock.Tick += new System.EventHandler(this.Clock_Tick);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Tomato;
+            this.label6.Location = new System.Drawing.Point(758, 149);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 44);
+            this.label6.TabIndex = 63;
+            this.label6.Text = "/";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(782, 211);
+            this.ClientSize = new System.Drawing.Size(843, 211);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -749,6 +762,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Timer Clock;
+        private System.Windows.Forms.Label label6;
     }
 }
 
