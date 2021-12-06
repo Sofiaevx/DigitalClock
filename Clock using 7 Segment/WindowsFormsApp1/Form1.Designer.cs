@@ -29,6 +29,7 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.A7 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.A3 = new System.Windows.Forms.Button();
@@ -76,10 +77,13 @@ namespace WindowsFormsApp1
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.Clock = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // A7
             // 
+            this.A7.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.A7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A7.Location = new System.Drawing.Point(671, 111);
             this.A7.Name = "A7";
             this.A7.Size = new System.Drawing.Size(60, 23);
@@ -100,6 +104,8 @@ namespace WindowsFormsApp1
             // 
             // A3
             // 
+            this.A3.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.A3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A3.Location = new System.Drawing.Point(730, 122);
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(22, 60);
@@ -110,6 +116,8 @@ namespace WindowsFormsApp1
             // 
             // A1
             // 
+            this.A1.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.A1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A1.Location = new System.Drawing.Point(671, 52);
             this.A1.Name = "A1";
             this.A1.Size = new System.Drawing.Size(60, 23);
@@ -120,6 +128,8 @@ namespace WindowsFormsApp1
             // 
             // A4
             // 
+            this.A4.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.A4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A4.Location = new System.Drawing.Point(671, 170);
             this.A4.Name = "A4";
             this.A4.Size = new System.Drawing.Size(60, 23);
@@ -130,6 +140,8 @@ namespace WindowsFormsApp1
             // 
             // A2
             // 
+            this.A2.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.A2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A2.Location = new System.Drawing.Point(730, 63);
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(22, 60);
@@ -140,6 +152,8 @@ namespace WindowsFormsApp1
             // 
             // A6
             // 
+            this.A6.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.A6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A6.Location = new System.Drawing.Point(650, 63);
             this.A6.Name = "A6";
             this.A6.Size = new System.Drawing.Size(22, 60);
@@ -150,6 +164,8 @@ namespace WindowsFormsApp1
             // 
             // A5
             // 
+            this.A5.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.A5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A5.Location = new System.Drawing.Point(650, 122);
             this.A5.Name = "A5";
             this.A5.Size = new System.Drawing.Size(22, 60);
@@ -160,6 +176,8 @@ namespace WindowsFormsApp1
             // 
             // B6
             // 
+            this.B6.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.B6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B6.Location = new System.Drawing.Point(544, 63);
             this.B6.Name = "B6";
             this.B6.Size = new System.Drawing.Size(22, 60);
@@ -170,6 +188,8 @@ namespace WindowsFormsApp1
             // 
             // B5
             // 
+            this.B5.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.B5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B5.Location = new System.Drawing.Point(544, 122);
             this.B5.Name = "B5";
             this.B5.Size = new System.Drawing.Size(22, 60);
@@ -180,6 +200,8 @@ namespace WindowsFormsApp1
             // 
             // B2
             // 
+            this.B2.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.B2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B2.Location = new System.Drawing.Point(624, 63);
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(22, 60);
@@ -190,6 +212,8 @@ namespace WindowsFormsApp1
             // 
             // B4
             // 
+            this.B4.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.B4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B4.Location = new System.Drawing.Point(565, 170);
             this.B4.Name = "B4";
             this.B4.Size = new System.Drawing.Size(60, 23);
@@ -200,6 +224,8 @@ namespace WindowsFormsApp1
             // 
             // B1
             // 
+            this.B1.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.B1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B1.Location = new System.Drawing.Point(565, 52);
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(60, 23);
@@ -210,6 +236,8 @@ namespace WindowsFormsApp1
             // 
             // B3
             // 
+            this.B3.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.B3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B3.Location = new System.Drawing.Point(624, 122);
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(22, 60);
@@ -220,6 +248,8 @@ namespace WindowsFormsApp1
             // 
             // B7
             // 
+            this.B7.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.B7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B7.Location = new System.Drawing.Point(565, 111);
             this.B7.Name = "B7";
             this.B7.Size = new System.Drawing.Size(60, 23);
@@ -230,6 +260,8 @@ namespace WindowsFormsApp1
             // 
             // E6
             // 
+            this.E6.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.E6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E6.Location = new System.Drawing.Point(137, 63);
             this.E6.Name = "E6";
             this.E6.Size = new System.Drawing.Size(22, 60);
@@ -240,6 +272,8 @@ namespace WindowsFormsApp1
             // 
             // E5
             // 
+            this.E5.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.E5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E5.Location = new System.Drawing.Point(137, 122);
             this.E5.Name = "E5";
             this.E5.Size = new System.Drawing.Size(22, 60);
@@ -250,6 +284,8 @@ namespace WindowsFormsApp1
             // 
             // E2
             // 
+            this.E2.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.E2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E2.Location = new System.Drawing.Point(217, 63);
             this.E2.Name = "E2";
             this.E2.Size = new System.Drawing.Size(22, 60);
@@ -260,6 +296,8 @@ namespace WindowsFormsApp1
             // 
             // E4
             // 
+            this.E4.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.E4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E4.Location = new System.Drawing.Point(158, 170);
             this.E4.Name = "E4";
             this.E4.Size = new System.Drawing.Size(60, 23);
@@ -270,6 +308,8 @@ namespace WindowsFormsApp1
             // 
             // E1
             // 
+            this.E1.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.E1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E1.Location = new System.Drawing.Point(158, 52);
             this.E1.Name = "E1";
             this.E1.Size = new System.Drawing.Size(60, 23);
@@ -280,6 +320,8 @@ namespace WindowsFormsApp1
             // 
             // E3
             // 
+            this.E3.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.E3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E3.Location = new System.Drawing.Point(217, 122);
             this.E3.Name = "E3";
             this.E3.Size = new System.Drawing.Size(22, 60);
@@ -290,6 +332,8 @@ namespace WindowsFormsApp1
             // 
             // E7
             // 
+            this.E7.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.E7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E7.Location = new System.Drawing.Point(158, 111);
             this.E7.Name = "E7";
             this.E7.Size = new System.Drawing.Size(60, 23);
@@ -300,6 +344,8 @@ namespace WindowsFormsApp1
             // 
             // F6
             // 
+            this.F6.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.F6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F6.Location = new System.Drawing.Point(27, 63);
             this.F6.Name = "F6";
             this.F6.Size = new System.Drawing.Size(22, 60);
@@ -310,6 +356,8 @@ namespace WindowsFormsApp1
             // 
             // F5
             // 
+            this.F5.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.F5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F5.Location = new System.Drawing.Point(27, 122);
             this.F5.Name = "F5";
             this.F5.Size = new System.Drawing.Size(22, 60);
@@ -320,6 +368,8 @@ namespace WindowsFormsApp1
             // 
             // F2
             // 
+            this.F2.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.F2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F2.Location = new System.Drawing.Point(107, 63);
             this.F2.Name = "F2";
             this.F2.Size = new System.Drawing.Size(22, 60);
@@ -330,6 +380,8 @@ namespace WindowsFormsApp1
             // 
             // F4
             // 
+            this.F4.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.F4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F4.Location = new System.Drawing.Point(48, 170);
             this.F4.Name = "F4";
             this.F4.Size = new System.Drawing.Size(60, 23);
@@ -340,6 +392,8 @@ namespace WindowsFormsApp1
             // 
             // F1
             // 
+            this.F1.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.F1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F1.Location = new System.Drawing.Point(48, 52);
             this.F1.Name = "F1";
             this.F1.Size = new System.Drawing.Size(60, 23);
@@ -350,6 +404,8 @@ namespace WindowsFormsApp1
             // 
             // F3
             // 
+            this.F3.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.F3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F3.Location = new System.Drawing.Point(107, 122);
             this.F3.Name = "F3";
             this.F3.Size = new System.Drawing.Size(22, 60);
@@ -360,6 +416,8 @@ namespace WindowsFormsApp1
             // 
             // F7
             // 
+            this.F7.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.F7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F7.Location = new System.Drawing.Point(48, 111);
             this.F7.Name = "F7";
             this.F7.Size = new System.Drawing.Size(60, 23);
@@ -370,6 +428,8 @@ namespace WindowsFormsApp1
             // 
             // D6
             // 
+            this.D6.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.D6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D6.Location = new System.Drawing.Point(288, 63);
             this.D6.Name = "D6";
             this.D6.Size = new System.Drawing.Size(22, 60);
@@ -380,6 +440,8 @@ namespace WindowsFormsApp1
             // 
             // D5
             // 
+            this.D5.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.D5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D5.Location = new System.Drawing.Point(288, 122);
             this.D5.Name = "D5";
             this.D5.Size = new System.Drawing.Size(22, 60);
@@ -390,6 +452,8 @@ namespace WindowsFormsApp1
             // 
             // D2
             // 
+            this.D2.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.D2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D2.Location = new System.Drawing.Point(368, 63);
             this.D2.Name = "D2";
             this.D2.Size = new System.Drawing.Size(22, 60);
@@ -400,6 +464,8 @@ namespace WindowsFormsApp1
             // 
             // D4
             // 
+            this.D4.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.D4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D4.Location = new System.Drawing.Point(309, 170);
             this.D4.Name = "D4";
             this.D4.Size = new System.Drawing.Size(60, 23);
@@ -410,6 +476,8 @@ namespace WindowsFormsApp1
             // 
             // D1
             // 
+            this.D1.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.D1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D1.Location = new System.Drawing.Point(309, 52);
             this.D1.Name = "D1";
             this.D1.Size = new System.Drawing.Size(60, 23);
@@ -420,6 +488,8 @@ namespace WindowsFormsApp1
             // 
             // D3
             // 
+            this.D3.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.D3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D3.Location = new System.Drawing.Point(368, 122);
             this.D3.Name = "D3";
             this.D3.Size = new System.Drawing.Size(22, 60);
@@ -430,6 +500,8 @@ namespace WindowsFormsApp1
             // 
             // D7
             // 
+            this.D7.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.D7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D7.Location = new System.Drawing.Point(309, 111);
             this.D7.Name = "D7";
             this.D7.Size = new System.Drawing.Size(60, 23);
@@ -440,6 +512,8 @@ namespace WindowsFormsApp1
             // 
             // C6
             // 
+            this.C6.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.C6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C6.Location = new System.Drawing.Point(394, 63);
             this.C6.Name = "C6";
             this.C6.Size = new System.Drawing.Size(22, 60);
@@ -450,6 +524,8 @@ namespace WindowsFormsApp1
             // 
             // C5
             // 
+            this.C5.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.C5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C5.Location = new System.Drawing.Point(394, 122);
             this.C5.Name = "C5";
             this.C5.Size = new System.Drawing.Size(22, 60);
@@ -460,6 +536,8 @@ namespace WindowsFormsApp1
             // 
             // C2
             // 
+            this.C2.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.C2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C2.Location = new System.Drawing.Point(474, 63);
             this.C2.Name = "C2";
             this.C2.Size = new System.Drawing.Size(22, 60);
@@ -470,6 +548,8 @@ namespace WindowsFormsApp1
             // 
             // C4
             // 
+            this.C4.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.C4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C4.Location = new System.Drawing.Point(415, 170);
             this.C4.Name = "C4";
             this.C4.Size = new System.Drawing.Size(60, 23);
@@ -480,6 +560,8 @@ namespace WindowsFormsApp1
             // 
             // C1
             // 
+            this.C1.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.C1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C1.Location = new System.Drawing.Point(415, 52);
             this.C1.Name = "C1";
             this.C1.Size = new System.Drawing.Size(60, 23);
@@ -490,6 +572,8 @@ namespace WindowsFormsApp1
             // 
             // C3
             // 
+            this.C3.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.C3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C3.Location = new System.Drawing.Point(474, 122);
             this.C3.Name = "C3";
             this.C3.Size = new System.Drawing.Size(22, 60);
@@ -500,6 +584,8 @@ namespace WindowsFormsApp1
             // 
             // C7
             // 
+            this.C7.FlatAppearance.BorderColor = System.Drawing.Color.MistyRose;
+            this.C7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C7.Location = new System.Drawing.Point(415, 111);
             this.C7.Name = "C7";
             this.C7.Size = new System.Drawing.Size(60, 23);
@@ -543,6 +629,12 @@ namespace WindowsFormsApp1
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(25, 25);
             this.label5.TabIndex = 61;
+            // 
+            // Clock
+            // 
+            this.Clock.Enabled = true;
+            this.Clock.Interval = 1000;
+            this.Clock.Tick += new System.EventHandler(this.Clock_Tick);
             // 
             // Form1
             // 
@@ -653,6 +745,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Timer Clock;
     }
 }
 

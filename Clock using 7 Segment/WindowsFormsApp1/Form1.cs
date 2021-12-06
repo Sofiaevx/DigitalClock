@@ -12,6 +12,9 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        int secondA = 0;
+
+
         public Form1()
         {
             InitializeComponent();
@@ -25,7 +28,47 @@ namespace WindowsFormsApp1
         private void buttonAll(object sender, EventArgs e)
         {
             Button btnall = (Button)sender;
-
+            btnall.BackColor = System.Drawing.Color.Tomato;
         }
-    }
+
+        private void Clock_Tick(object sender, EventArgs e)
+        {
+            string secA =(DateTime.Now.ToString("ss"));
+            secondA = Convert.ToInt32(secA.Substring(secA.Length -1));
+          
+            choice(secondA);
+        }
+        private void choice(int btnclock)
+        {
+
+
+            if (btnclock == 1)
+            {
+                A2.PerformClick();
+                A3.PerformClick();
+
+            }
+            else if(btnclock == 2)
+            {
+                A3.BackColor = System.Drawing.Color.Transparent;
+
+                A1.PerformClick();
+                A2.PerformClick();
+                A7.PerformClick();
+                A5.PerformClick();
+                A4.PerformClick();
+            }
+            else if (btnclock == 3)
+            {
+                A5.BackColor = System.Drawing.Color.Transparent;
+
+                A1.PerformClick();
+                A2.PerformClick();
+                A3.PerformClick();
+                A4.PerformClick();
+                A7.PerformClick();
+            }
+           
+        }
+        }
 }
