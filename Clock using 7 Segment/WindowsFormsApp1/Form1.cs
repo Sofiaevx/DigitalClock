@@ -40,10 +40,14 @@ namespace WindowsFormsApp1
         }
         private void choice(int btnclock)
         {
-
-
-            if (btnclock == 1)
+           
+           if (btnclock == 1)
             {
+                A1.BackColor = System.Drawing.Color.Transparent;
+                A4.BackColor = System.Drawing.Color.Transparent;
+                A5.BackColor = System.Drawing.Color.Transparent;
+                A6.BackColor = System.Drawing.Color.Transparent;
+
                 A2.PerformClick();
                 A3.PerformClick();
 
@@ -68,7 +72,79 @@ namespace WindowsFormsApp1
                 A4.PerformClick();
                 A7.PerformClick();
             }
-           
+            else if (btnclock == 4)
+            {
+                A1.BackColor = System.Drawing.Color.Transparent;
+                A4.BackColor = System.Drawing.Color.Transparent;
+
+                A2.PerformClick();
+                A3.PerformClick();
+                A6.PerformClick();
+                A7.PerformClick();
+            }
+            else if (btnclock == 5)
+            {
+                A2.BackColor = System.Drawing.Color.Transparent;
+
+                A1.PerformClick();
+                A3.PerformClick();
+                A4.PerformClick();
+                A6.PerformClick();
+                A7.PerformClick();
+            }
+            else if (btnclock == 6)
+            {
+
+                A1.PerformClick();
+                A3.PerformClick();
+                A4.PerformClick();
+                A5.PerformClick();
+                A6.PerformClick();
+                A7.PerformClick();
+            }
+            else if (btnclock == 7)
+            {
+                A4.BackColor = System.Drawing.Color.Transparent;
+                A5.BackColor = System.Drawing.Color.Transparent;
+                A6.BackColor = System.Drawing.Color.Transparent;
+                A7.BackColor = System.Drawing.Color.Transparent;
+
+                A1.PerformClick();
+                A2.PerformClick();
+                A3.PerformClick();
+            }
+            else if (btnclock == 8)
+            {
+                A1.PerformClick();
+                A2.PerformClick();
+                A3.PerformClick();
+                A4.PerformClick();
+                A5.PerformClick();
+                A6.PerformClick();
+                A7.PerformClick();
+            }
+            else if (btnclock == 9)
+            {
+                A5.BackColor = System.Drawing.Color.Transparent;
+
+                A1.PerformClick();
+                A2.PerformClick();
+                A3.PerformClick();
+                A4.PerformClick();
+                A6.PerformClick();
+                A7.PerformClick();
+            }
+            else
+            {
+                A7.BackColor = System.Drawing.Color.Transparent;
+                A1.PerformClick();
+                A2.PerformClick();
+                A3.PerformClick();
+                A4.PerformClick();
+                A5.PerformClick();
+                A6.PerformClick();
+            }
+
         }
         }
 }
