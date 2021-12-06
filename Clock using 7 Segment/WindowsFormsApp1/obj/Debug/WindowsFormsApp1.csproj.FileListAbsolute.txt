@@ -1,0 +1,10 @@
+C:\Users\Jv Cataquiz\OOP\Assignment8\Clock using 7 Segment\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Jv Cataquiz\OOP\Assignment8\Clock using 7 Segment\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Jv Cataquiz\OOP\Assignment8\Clock using 7 Segment\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Jv Cataquiz\OOP\Assignment8\Clock using 7 Segment\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Jv Cataquiz\OOP\Assignment8\Clock using 7 Segment\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Jv Cataquiz\OOP\Assignment8\Clock using 7 Segment\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Jv Cataquiz\OOP\Assignment8\Clock using 7 Segment\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Jv Cataquiz\OOP\Assignment8\Clock using 7 Segment\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Jv Cataquiz\OOP\Assignment8\Clock using 7 Segment\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Jv Cataquiz\OOP\Assignment8\Clock using 7 Segment\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
