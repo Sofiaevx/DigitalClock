@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
         int minuteB = 0;
         int hourA = 0;
         int hourB = 0;
-
+        int tick = 0;
         public Form1()
         {
             InitializeComponent();
@@ -37,8 +37,10 @@ namespace WindowsFormsApp1
 
         private void Clock_Tick(object sender, EventArgs e)
         {
+            tick++;
+
             string secA =(DateTime.Now.ToString("ss"));
-            secondA = Convert.ToInt32(secA.Substring(secA.Length -1)) + 1;
+            secondA = Convert.ToInt32(secA.Substring(secA.Length -1));
             choiceA(secondA);
             secondB = Convert.ToInt32(secA.Substring(0,1));
             choiceB(secondB);
@@ -49,9 +51,16 @@ namespace WindowsFormsApp1
             minuteB = Convert.ToInt32(minA.Substring(0, 1));
             choiceD(minuteB);
 
+            string hrA = (DateTime.Now.ToString("hh"));
+            hourA = Convert.ToInt32(hrA.Substring(hrA.Length - 1));
+            choiceE(hourA);
+            hourB = Convert.ToInt32(hrA.Substring(0, 1));
+            choiceF(hourB);
+
         }
         private void choiceA(int btnclock)
         {
+            
            
            if (btnclock == 1)
             {
@@ -145,6 +154,7 @@ namespace WindowsFormsApp1
                 A4.PerformClick();
                 A6.PerformClick();
                 A7.PerformClick();
+               
             }
             else
             {
@@ -155,10 +165,12 @@ namespace WindowsFormsApp1
                 A4.PerformClick();
                 A5.PerformClick();
                 A6.PerformClick();
+                
             }
 
            
         }
+        // ------------------------------------ CHOICE B ------------------------------------------
         private void choiceB(int btnclockB)
         {
             if (btnclockB == 1)
@@ -226,6 +238,7 @@ namespace WindowsFormsApp1
             }
 
         }
+        // ------------------------------------ CHOICE C ------------------------------------------
         private void choiceC(int btnclockC)
         {
             if (btnclockC == 1)
@@ -333,6 +346,7 @@ namespace WindowsFormsApp1
             }
 
         }
+        // ------------------------------------ CHOICE D ------------------------------------------
         private void choiceD(int btnclockD)
         {
             if (btnclockD == 1)
@@ -397,6 +411,141 @@ namespace WindowsFormsApp1
                 D4.PerformClick();
                 D5.PerformClick();
                 D6.PerformClick();
+               
+            }
+
+        }
+        // ------------------------------------ CHOICE E ------------------------------------------
+        private void choiceE(int btnclockE)
+        {
+            if (btnclockE == 1)
+            {
+                E1.BackColor = System.Drawing.Color.Transparent;
+                E4.BackColor = System.Drawing.Color.Transparent;
+                E5.BackColor = System.Drawing.Color.Transparent;
+                E6.BackColor = System.Drawing.Color.Transparent;
+
+                E2.PerformClick();
+                E3.PerformClick();
+
+            }
+            else if (btnclockE == 2)
+            {
+                E3.BackColor = System.Drawing.Color.Transparent;
+
+                E1.PerformClick();
+                E2.PerformClick();
+                E7.PerformClick();
+                E5.PerformClick();
+                E4.PerformClick();
+            }
+            else if (btnclockE == 3)
+            {
+                E5.BackColor = System.Drawing.Color.Transparent;
+
+                E1.PerformClick();
+                E2.PerformClick();
+                E3.PerformClick();
+                E4.PerformClick();
+                E7.PerformClick();
+            }
+            else if (btnclockE == 4)
+            {
+                E1.BackColor = System.Drawing.Color.Transparent;
+                E4.BackColor = System.Drawing.Color.Transparent;
+
+                E2.PerformClick();
+                E3.PerformClick();
+                E6.PerformClick();
+                E7.PerformClick();
+            }
+            else if (btnclockE == 5)
+            {
+                E2.BackColor = System.Drawing.Color.Transparent;
+
+                E1.PerformClick();
+                E3.PerformClick();
+                E4.PerformClick();
+                E6.PerformClick();
+                E7.PerformClick();
+            }
+            else if (btnclockE == 6)
+            {
+
+                E1.PerformClick();
+                E3.PerformClick();
+                E4.PerformClick();
+                E5.PerformClick();
+                E6.PerformClick();
+                E7.PerformClick();
+            }
+            else if (btnclockE == 7)
+            {
+                E4.BackColor = System.Drawing.Color.Transparent;
+                E5.BackColor = System.Drawing.Color.Transparent;
+                E6.BackColor = System.Drawing.Color.Transparent;
+                E7.BackColor = System.Drawing.Color.Transparent;
+
+                E1.PerformClick();
+                E2.PerformClick();
+                E3.PerformClick();
+            }
+            else if (btnclockE == 8)
+            {
+                E1.PerformClick();
+                E2.PerformClick();
+                E3.PerformClick();
+                E4.PerformClick();
+                E5.PerformClick();
+                E6.PerformClick();
+                E7.PerformClick();
+            }
+            else if (btnclockE == 9)
+            {
+                E5.BackColor = System.Drawing.Color.Transparent;
+
+                E1.PerformClick();
+                E2.PerformClick();
+                E3.PerformClick();
+                E4.PerformClick();
+                E6.PerformClick();
+                E7.PerformClick();
+            }
+            else
+            {
+                E7.BackColor = System.Drawing.Color.Transparent;
+                E1.PerformClick();
+                E2.PerformClick();
+                E3.PerformClick();
+                E4.PerformClick();
+                E5.PerformClick();
+                E6.PerformClick();
+            }
+
+        }
+        // ------------------------------------ CHOICE F ------------------------------------------
+        private void choiceF(int btnclockF)
+        {
+            if (btnclockF == 1)
+            {
+                F1.BackColor = System.Drawing.Color.Transparent;
+                F4.BackColor = System.Drawing.Color.Transparent;
+                F5.BackColor = System.Drawing.Color.Transparent;
+                F6.BackColor = System.Drawing.Color.Transparent;
+
+                F2.PerformClick();
+                F3.PerformClick();
+
+            }
+            else
+            {
+                F7.BackColor = System.Drawing.Color.Transparent;
+                F1.PerformClick();
+                F2.PerformClick();
+                F3.PerformClick();
+                F4.PerformClick();
+                F5.PerformClick();
+                F6.PerformClick();
             }
 
         }

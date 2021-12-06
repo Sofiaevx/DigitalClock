@@ -95,7 +95,9 @@ namespace WindowsFormsApp1
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Tomato;
             this.label1.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Snow;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(163, 23);
@@ -633,13 +635,14 @@ namespace WindowsFormsApp1
             // Clock
             // 
             this.Clock.Enabled = true;
-            this.Clock.Interval = 1000;
+            this.Clock.Interval = 500;
             this.Clock.Tick += new System.EventHandler(this.Clock_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(782, 211);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
